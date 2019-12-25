@@ -56,4 +56,6 @@ https://github.com/openshift/console
 source ./contrib/environment.sh && ./bin/bridge
 ```
 
+### Install kubevirt
+
 In the web-ui console http://localhost:9000/operatorhub/all-namespaces install the `kubevirt` operator using the OLM menu.
