@@ -2,6 +2,8 @@
 
 ### Set up kernel paramtets
 
+https://www.redhat.com/sysadmin/fedora-31-control-group-v2
+
 Add `intel_iommu=on systemd.unified_cgroup_hierarchy=0` to `GRUB_CMDLINE_LINUX`
 ```
 sudo vim /etc/default/grub # Adit GRUB_CMDLINE_LINUX
@@ -57,5 +59,7 @@ source ./contrib/environment.sh && ./bin/bridge
 ```
 
 ### Install kubevirt
+
+https://github.com/kubevirt/kubevirt
 
 In the web-ui console http://localhost:9000/ create a namespace `kubevirt` and install the `kubevirt` operator using the OLM menu http://localhost:9000/operatorhub/all-namespaces/ .
