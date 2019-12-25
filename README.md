@@ -50,6 +50,8 @@ chmod +x install.sh
 
 ### Run the console
 
+https://github.com/openshift/console
+
 ```
 source ./contrib/environment.sh && ./bin/bridge
 ```
