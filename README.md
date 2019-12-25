@@ -17,8 +17,12 @@ https://docs.fedoraproject.org/en-US/quick-docs/getting-started-with-virtualizat
 sudo dnf install @virtualization
 sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
-virt-host-validate 
 sudo usermod -a -G libvirt $(whoami)
+```
+
+Check virtualization works
+```
+virt-host-validate 
 ```
 
 ### Install minikube
