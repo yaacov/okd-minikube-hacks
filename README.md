@@ -50,4 +50,4 @@ chmod +x install.sh
 source ./contrib/environment.sh && ./bin/bridge
 ```
 
-In the web-ui console `http://loacalhost:9000` install the `kubevirt` operator using the OLM menu.
+In the web-ui console http://localhost:9000 install the `kubevirt` operator using the OLM menu.
